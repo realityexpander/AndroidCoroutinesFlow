@@ -1,4 +1,4 @@
-package com.devtides.androidcoroutinesflow
+package com.realityexpander.androidcoroutinesflow
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

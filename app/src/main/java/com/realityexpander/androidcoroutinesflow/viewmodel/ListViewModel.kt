@@ -1,4 +1,4 @@
-package com.devtides.androidcoroutinesflow.viewmodel
+package com.realityexpander.androidcoroutinesflow.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

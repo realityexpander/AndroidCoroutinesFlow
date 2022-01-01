@@ -1,4 +1,4 @@
-package com.devtides.androidcoroutinesflow
+package com.realityexpander.androidcoroutinesflow
 
 import org.junit.Test
 

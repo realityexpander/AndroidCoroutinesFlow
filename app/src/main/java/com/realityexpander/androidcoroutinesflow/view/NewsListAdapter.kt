@@ -1,11 +1,11 @@
-package com.devtides.coroutinesretrofit.view
+package com.realityexpander.coroutinesretrofit.view
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.devtides.androidcoroutinesflow.R
-import com.devtides.androidcoroutinesretrofit.model.NewsArticle
+import com.realityexpander.androidcoroutinesflow.R
+import com.realityexpander.androidcoroutinesretrofit.model.NewsArticle
 import kotlinx.android.synthetic.main.item_news_article.view.*
 
 class NewsListAdapter: RecyclerView.Adapter<NewsListAdapter.NewsItemViewHolder>() {

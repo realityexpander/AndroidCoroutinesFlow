@@ -1,14 +1,13 @@
-package com.devtides.androidcoroutinesflow.view
+package com.realityexpander.androidcoroutinesflow.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.devtides.androidcoroutinesflow.R
-import com.devtides.androidcoroutinesflow.viewmodel.ListViewModel
-import com.devtides.coroutinesretrofit.view.NewsListAdapter
+import com.realityexpander.androidcoroutinesflow.R
+import com.realityexpander.androidcoroutinesflow.viewmodel.ListViewModel
+import com.realityexpander.coroutinesretrofit.view.NewsListAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
