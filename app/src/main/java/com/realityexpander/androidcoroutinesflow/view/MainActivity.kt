@@ -2,6 +2,7 @@ package com.realityexpander.androidcoroutinesflow.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -31,7 +32,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun observeViewModel() {
         viewModel.newsArticles.observe(this, Observer { article ->
-
+            loading_view.visibility = View.GONE
+            newsList.visibility = View.VISIBLE
+            newsListAdapter.onAddNewsItem(article)
+            newsList.smoothScrollToPosition(0)
         })
     }
 }
